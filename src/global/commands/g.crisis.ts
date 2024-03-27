@@ -6,7 +6,8 @@ export default crisis;
  * Information about contacting the team!
  * @return {any} an object with information about the bot
  */
-export async function crisis():Promise<HelpResource[]> {
+
+export async function crisis(userloc?: string | null):Promise<HelpResource[]> { //[insert badly drawn graffiti S] nife woz ere
   const response = [
     {
       name: 'Poison Control',

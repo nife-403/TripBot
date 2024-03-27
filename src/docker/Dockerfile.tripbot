@@ -44,7 +44,7 @@ RUN npx prisma generate
 RUN npx prisma generate --schema=./src/prisma/moodle/schema.prisma
 
 # Deploy the commands
-# RUN npx ts-node --transpile-only ./src/discord/utils/commandDeploy.ts
+CMD npx prisma migrate deploy && npx prisma db push && npx tsc-watch --onSuccess "node ./build/src/start.js"
 
 # CMD npx prisma migrate deploy && npx tsc-watch --onSuccess "node ./build/src/start.js"
 CMD npx tsc-watch --onSuccess "node ./build/src/start.js"

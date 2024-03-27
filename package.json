@@ -88,6 +88,7 @@
     "objection": "^3.1.3",
     "octokit": "^3.1.2",
     "openai": "^4.25.0",
+    "request": "^2.88.2",
     "rollbar": "^2.26.2",
     "rss-parser": "^3.13.0",
     "source-map-support": "^0.5.21",
@@ -95,6 +96,7 @@
     "tripsit_drug_db": "github:tripsit/drugs",
     "trivia-api": "^1.0.0",
     "underscore": "^1.13.6",
+    "uuid": "^9.0.1",
     "winston": "^3.11.0",
     "winston-transport-rollbar-3": "^3.2.6",
     "youtube-search-without-api-key": "^2.0.1"

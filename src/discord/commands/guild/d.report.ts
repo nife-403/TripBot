@@ -2,6 +2,7 @@ import {
   SlashCommandBuilder,
   ChatInputCommandInteraction,
   GuildMember,
+  Client,
 } from 'discord.js';
 import { stripIndents } from 'common-tags';
 import { SlashCommand } from '../../@types/commandDef';
@@ -17,6 +18,7 @@ export const dReport: SlashCommand = {
     .addStringOption(option => option
       .setDescription('User to report!')
       .setRequired(true)
+    //.setAutocomplete(true)
       .setName('target')),
 
   async execute(interaction: ChatInputCommandInteraction) {
