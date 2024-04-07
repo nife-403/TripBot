@@ -1,0 +1,9 @@
+improve crisis/ems cmd:
+- add hotline names, website, webchat and text where possible
+- make embed for optional regional input
+- use this api to fill in missing numbers: https://emergencynumberapi.com/docs
+- if no numbers are found for specified region, send non region specific embed
+
+combine all testkit etc commands, include tripsit affiliate codes everywhere besides bl:
+- bluelight-testing branch
+- add the cmd using json by becks for embed content, guild check for bl and test

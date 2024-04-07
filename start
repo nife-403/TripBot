@@ -1,0 +1,1 @@
+doas npm run tripbot:start && doas npm run tripbot:logs #made for my server (gentoo, openrc, doas etc oooo look at me GENTOO SERVER BTW) to save me typing it out constantly
