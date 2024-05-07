@@ -98,6 +98,7 @@
     "underscore": "^1.13.6",
     "uuid": "^9.0.1",
     "winston": "^3.11.0",
+    "winston-transport": "^4.7.0",
     "winston-transport-rollbar-3": "^3.2.6",
     "youtube-search-without-api-key": "^2.0.1"
   },
